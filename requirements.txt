@@ -1,0 +1,6 @@
+asgiref==3.3.1
+Django==3.1.7
+git+git://github.com/tdxdave/django-h5p.git@main#egg=django-h5p
+python-dotenv==0.15.0
+pytz==2021.1
+sqlparse==0.4.1
