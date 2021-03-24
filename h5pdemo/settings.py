@@ -124,4 +124,7 @@ MEDIA_ROOT = BASE_DIR / "site_media" / "media"
 MEDIA_URL = '/media/'
 STATICFILES_DIRS = [ BASE_DIR / "site_media" / "static",]
 
-from .local_settings import *
+try:
+    from .local_settings import *
+except ImportError:
+    pass
