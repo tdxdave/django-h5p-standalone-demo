@@ -1,12 +1,11 @@
-	python3 -m venv ~/.virtualenvs/django-h5p-standalone
+	
+	git clone https://github.com/tdxdave/django-h5p-stanlone-demo.git
 
-	source ~/.virtualenvs/django-h5p-standalone/bin/activate
+	cd django-h5p-standalone-demo
 
-	python3 -m pip install Django
+	python3 -m venv ~/.virtualenvs/django-h5p-standalone-demo
 
-	~/.virtualenvs/django-h5p-standalone/bin/django-admin startproject h5pdemo
-
-	cd h5pdemo/
+	source ~/.virtualenvs/django-h5p-standalone-demo/bin/activate
 
 	pip install -r requirements.txt
 
